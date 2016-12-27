@@ -1,7 +1,6 @@
 import os
 import sys
 
-from exam2a_ai import AI
 from utils import Vocab
 
 
@@ -45,10 +44,6 @@ if __name__ == '__main__':
     for w in words:
         v.add(w)
     v.sort()
-
-    # build AI
-    # player1 = AI()
-    # player2 = AI()
 
     first_flg = True
     while True:
